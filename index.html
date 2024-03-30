@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./src/output.css" />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+
+  <body class="font-Hanken text-[18px] ">
+    <section class="w-[375px] m-auto bg-white mb-4 shadow-lg shadow-dark-gray-blue-alpha md:flex md:mt-20 md:w-[740px] md:rounded-3xl">
+
+      <!-- Parte azul -->
+      <div class="bg-gradient-to-b from-light-slate-blue to-light-royal-blue p-[40px] text-center rounded-b-3xl md:rounded-3xl md:w-[50%] md:pt-12">
+
+        <h2 class="text-light-lavender mb-4 md:mb-10 md:text-3xl">Your Result</h2>
+
+        <div class="bg-gradient-to-b from-violet-blue to-light-slate-blue w-[150px] h-[150px] m-auto rounded-full flex flex-col justify-center items-center mb-4 md:mb-10">
+
+          <p class="text-white font-bold text-5xl md:text-6xl">76</p>
+          <p class="text-light-lavender">of 100</p>
+        </div>
+        <p class="text-white mb-2 font-bold text-2xl md:text-3xl md:mb-4 ">Great</p>
+        <p class="text-light-lavender mb-4 text-[16px] md:text-xl md:mb-8">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+
+      <!-- Parte blanca -->
+      <div class="p-[30px] font-bold md:w-[50%] md:py-12 md:px-10">
+        <h2 class="text-dark-gray-blue mb-6 font-bold md:text-3xl">Summary</h2>
+
+      <div class="flex justify-between mb-4 p-4 bg-light-red-alpha rounded-lg md:text-xl">
+        <p class="flex gap-2 text-light-red ">
+          <img src="../assets/images/icon-reaction.svg" alt="" />
+          <span>Reaction</span>
+        </p>
+        <p>80 <span class="text-dark-gray-blue-alpha font-bold">/ 100</span></p>
+      </div>
+
+      <div class="flex justify-between mb-4 p-4 bg-orangey-yellow-alpha rounded-lg md:text-xl">
+        <p class="flex gap-2 text-orangey-yellow">
+          <img src="../assets/images/icon-memory.svg" alt="" />
+          <span>Memory</span>
+        </p>
+        <p>92 <span class="text-dark-gray-blue-alpha font-bold">/ 100</span></p>
+      </div>
+
+      <div class="flex justify-between mb-4 p-4 bg-green-teal-alpha rounded-lg md:text-xl">
+        <p class="flex gap-2 text-green-teal">
+          <img src="../assets/images/icon-verbal.svg" alt="" />
+          <span>Verbal</span>
+        </p>
+        <p>61 <span class="text-dark-gray-blue-alpha font-bold">/ 100</span></p>
+      </div>
+
+      <div class="flex justify-between mb-4 p-4 bg-cobalt-blue-alpha rounded-lg md:text-xl md:mb-8">
+        <p class="flex gap-2 text-cobalt-blue">
+          <img src="../assets/images/icon-visual.svg" alt="" />
+          <span>Visual</span>
+        </p>
+        <p>72 <span class="text-dark-gray-blue-alpha font-bold">/ 100</span></p>
+      </div>
+      <button class="w-full bg-dark-gray-blue text-white p-4 rounded-full mt-4 font-bold hover:bg-gradient-to-b from-light-slate-blue to-light-royal-blue">Continue</button>
+    </div>
+
+    </section>
+  </body>
+</html>
